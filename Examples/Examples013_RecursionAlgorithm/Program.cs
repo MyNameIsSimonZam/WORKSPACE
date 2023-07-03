@@ -1,4 +1,4 @@
-﻿string[,] table = new string[2, 5];
+﻿// string[,] table = new string[2, 5];
 
 // table[0,0] table[0,1] table[0,2] table[0,3] table[0,4]
 // table[1,0] table[1,1] table[1,2] table[1,3] table[1,4]
@@ -150,7 +150,7 @@ int Fibonacci(int n)
     else return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 
-for (int i = 1; i < 40; i++)
+for (int i = 1; i < 20; i++)
 {
     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 }
