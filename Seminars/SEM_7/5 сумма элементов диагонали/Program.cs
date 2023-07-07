@@ -37,8 +37,14 @@ void getSum(int[,] array)
     int columns = array.GetLength(1);
 
     int number = 0;
-    if (rows > columns) { number = columns; }
-    else { number = rows; }
+    if (rows > columns)
+    {
+        number = columns;
+    }
+    else
+    {
+        number = rows;
+    }
 
     int[] numbers = new int[number];
     int sum = 0;
